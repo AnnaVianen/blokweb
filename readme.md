@@ -77,8 +77,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/homepagina" width="375px" alt="homepagina van rituals website">
+<img src="images/homepagina.png" width="375px" alt="homepagina van rituals website">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/productpagina" width="375px" alt="pagina van rituals website die producten laat zien onder de categorie bath & body">
+<img src="images/productpagina.png" width="375px" alt="pagina van rituals website die producten laat zien onder de categorie bath & body">

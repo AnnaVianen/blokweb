@@ -12,32 +12,64 @@
 </head>
 
 <body>
-    <!-- start hamburger menu -->
+    
     <header>
-
+        <!-- streepjes hamburger menu
         <nav>
             <label for="toggle">&#9776;</label>
         </nav>
-    <!-- https://www.youtube.com/watch?v=xMTs8tAapnQ -->
+        bron:https://www.youtube.com/watch?v=xMTs8tAapnQ -->
+        
+       
+        
+        <!-- top nav menu -->
+        
+         <div class="topnav">
+                
+            <a href="index.html" class="active">Rituals</a>
+            
+            <!-- nav links-->
+            <div id="myLinks">
+                <a href="product.html">Producten</a>
+                <a href="collecties">Collecties</a>
+                <a href="cadeaus">Cadeaus</a>
+                <a href="magazine">Magazine</a>
+            </div>
+            
+            <!--hamburger menu-->
+            <a id="linksboven" href="javascript:void(0);" class="icon" onclick="myFunction()"> </a>  
+            
+           
+        </div>
 
+      
         <section class="homebanner">
             <h1>Green Friday</h1>
                 <p>Ontvang vandaag 20% korting op al onze refills.*</p>
                 <p>Geniet nog langer van je favoriete producten en bewandel het pad van duurzaamheid.</p>
                 <button id='shop'>SHOP</button>
         </section>
-        
+        <!-- eind top nav menu -->
     </header>
-    <!-- einde hamburger menu -->
+   
    
     <section id="zijkant">
     <h2>Feedback</h2>
     </section>
      
+               
+               
+            <ul class="slider">
+               <li>Gratis verzending bij bestellingen vanaf €30 voor My Rituals members</li>
+               <li>Ontvang online advies via Whatsapp</li>
+               <li>Bestel voor 22.30 op maandag tot vrijdag voor levering op volgende dag</li>
+                   
+            </ul>
         
-           <ul>
+          
+            <ul>
                <li id="jouwcadeau">
-                  <h3>Exlusief voor my rituals members</h3>
+                  <h3>Exclusief voor my rituals members</h3>
                    <h2>Jouw cadeau</h2>
                    <p>Ontvang een geurkaars van natuurlijke wax cadeau bij bestellingen vanaf €50.*</p>
                    <button id='shopNu'>SHOP NU</button>
@@ -51,9 +83,51 @@
                    <p>Verwen jezelf met onze populaire Limited Edition producten op basis van Japanse yuzu en fleurige tulp.</p>
                    <button id='shopNu2'>SHOP NU</button>
                </li>
-           </ul>   
+            </ul>   
+           
+           
+             <ul>
+               <li id="lipverzorging">
+                  <h2>Natuurlijk lipverzorging</h2>
+                   <p>Voor lippen die gevoed en verzorgd willen worden.</p>
+                   <button id='shopNu3'>SHOP NU</button>
+                   <img class="verzorgingfoto" src="images/verzorging.png" alt="Foto van een lipverzorgings product">
+               </li>
+               
+               
+                <li id="huidverzorging">
+                   <h2>Huidverzorging met een boost</h2>
+                   <p>Ontdek het makkelijke 3-stappenplan voor een gevoede, gehydrateerde en stralende huid.</p>
+                   <button id='ontdek'>ONTDEK MEER</button>
+                   <img class="huidverzorging" src="images/huisverzorging.jpg" alt="Foto van een huidverzorgings product">
+               </li>
+             </ul> 
+           
+           
+            <ul>
+               <li id="handverzorging">
+                  <h2>95% natuurlijke handverzorging</h2>
+                   <p>Voor lippen die gevoed en verzorgd willen worden.</p>
+                   <button id='shopNu4'>SHOP NU</button>
+                   <img class="verzorgingfoto" src="images/verzorging.png" alt="Foto van een lipverzorgings product">
+               </li>
+               
+               
+                <li id="huidverzorging2">
+                   <h2>Huidverzorging met een boost</h2>
+                   <p>Ontdek het makkelijke 3-stappenplan voor een gevoede, gehydrateerde en stralende huid.</p>
+                   <button id='ontdek2'>ONTDEK MEER</button>
+                   <img class="huidverzorging" src="images/huidverzorging.jpg" alt="Foto van een huidverzorgings product">
+               </li>
+            </ul> 
         
-        
+        <footer>
+            <h2>Blijf op de hoogte</h2>
+            <p>Meld je aan voor het laatste Rituals-nieuws en ontvang exclusieve aanbiedingen. Rituals gebruikt je persoonlijke gegevens zoals beschreven in ons Privacybeleid.</p>
+            <p>E-mailadres</p>
+            <input class="inputveld email" type="email">
+            <button id="aanmelden">Aanmelden</button>
+        </footer>
         
         
 	<script src="scripts/script.js"></script>

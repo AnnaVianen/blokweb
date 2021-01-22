@@ -1,20 +1,21 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** Anna Vianen
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. https://code-boxx.com/responsive-pure-css-text-slider/#sec-h
+2. https://www.w3schools.com/howto/howto_css_menu_horizontal_scroll.asp
+3. dlo
+4. https://www.w3schools.com/howto/howto_css_image_responsive.asp
 
 
 
 ## Eindgesprek (week 7/8)
-
--dit ging goed & dit was lastig-
+her
+Wat er goed ging was de HTMl en CSS. Ik begrijp hoe de structuur in elkaar zit. Wat ik lastig vond, was de slider, carousel en ahmburger menu. Ik hier heel lang over gedaan en veel geexperimenteerd. Uiteindelijk is de slider gelukt. Ook de carousel zit erin, maar die kan nog netter.
 
 **Screenshot(s):**
 
@@ -24,13 +25,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Deze week had ik veel tijd gestoken in het bekijken van bronnen (voornamelijk dlo nog een paar keer teruggekeken, maar het is toch lastiger om iets zelf te maken dan een opdracht met uitwerkingen erbij), waardoor ik bij sommige problemen een oplossing had. Maar nog steeds liep ik tegen de slider, hamburger menu en carousel aan.
 
 
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+De HTML en CSS lukt me wel aardig, maar als ik dan iets moet namaken wat wat ingewikkelder is - zoals een slider, carousel of hamburger menu - dan lukt dit me niet zo goed.
 
 
 
@@ -38,7 +39,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+
+Het opstellen van HTML ging me wel gemakkelijk af. Ik had eerst content verzameld, waardoor ik snel een ruwe index.html had opgesteld. Om vanuit hier verder te gaan was lastig.
 
 **Screenshot(s):**
 

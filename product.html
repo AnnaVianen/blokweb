@@ -12,52 +12,43 @@
 </head>
 
 <body>
-    <!-- start hamburger menu -->
-    <header>
-        <!-- streepjes hamburger menu
-        <nav>
-            <label for="toggle">&#9776;</label>
-        </nav>
-       bron: https://www.youtube.com/watch?v=xMTs8tAapnQ -->
+   <header>
 
-       
-         <!-- top nav menu -->
-        <div class="topnav">
-                
-            <a href="index.html" class="active">Rituals</a>
-            <!-- nav links-->
-            <div id="myLinks">
-                <a href="product.html">Producten</a>
-                <a href="collecties">Collecties</a>
-                <a href="cadeaus">Cadeaus</a>
-                <a href="magazine">Magazine</a>
-            </div>
-            
-            <!--hamburger menu-->
-            <a id="linksboven" href="javascript:void(0);" class="icon" onclick="myFunction()"> </a>     
-        </div>
+         <nav>
+           <a href="index.html" class="active">
+            <img class="logo" src="images/logo.png" alt="logo van Rituals">
+            </a>
+                <ul>
+                    <li><a href="product.html"> Producten</a></li>
+                    <li><a href="index.html"> Collecties</a></li>
+                    <li><a href="index.html"> Cadeaus</a></li>
+                    <li><a href="index.html"> Magazines</a></li>
+                </ul>
+         </nav>
        
        
-        <article>
+        <article class="opties">
             <h1>Producten</h1>
+            <button id="filteren">Filteren</button>
+            <button id="sorteren">Sorteren op</button>
         </article>
+     
         
         <section id="zijkant">
-    <h2>Feedback</h2>
-    </section>
+        <h2>Feedback</h2>
+        </section>
         
     </header>
-    <!-- einde hamburger menu -->
    
    
    <main>
-   
+
         <article>
            <img class="productfoto" src="images/foam.webp" alt="Foto van de doucheschuim">
             <h2>Foaming shower gel</h2>
             <p>The Ritual of Sakura, doucheschuim, 200 ml</p>
             <p>8,50</p>
-            <button id='winkelmand1'>IN WINKELMAND</button>
+            <button id='winkelmand'>IN WINKELMAND</button>
         </article>  
              
         <article>
@@ -84,7 +75,7 @@
             <button id='winkelmand4'>IN WINKELMAND</button>
         </article> 
              
-        <article>
+              <article>
            <img class="productfoto" src="images/foam.webp" alt="Foto van de doucheschuim">
             <h2>Foaming shower gel</h2>
             <p>The Ritual of Sakura, doucheschuim, 200 ml</p>
@@ -100,8 +91,9 @@
             <button id='winkelmand6'>IN WINKELMAND</button>
         </article> 
               
-                
+               
        </main>       
+        
         
         <footer>
             <h2>Blijf op de hoogte</h2>

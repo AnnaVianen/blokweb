@@ -2,14 +2,11 @@
 
 
 
+var buttonElement = document.querySelector('hamburger');
+buttonElement.addEventListener('click', togglemenu);
 
-
-function myFunction(){
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-    }
-    else {
-        x.style.display = "block";
-    }
+function togglemenu() {
+    var navElement = document.querySelector('menu');
+    navElement.classList.toggle('toonMenu');
 }
+

@@ -1,12 +1,9 @@
 // JavaScript Document
 
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
 
-var buttonElement = document.querySelector('hamburger');
-buttonElement.addEventListener('click', togglemenu);
-
-function togglemenu() {
-    var navElement = document.querySelector('menu');
-    navElement.classList.toggle('toonMenu');
-}
-
+toggleButton.addEventListener('click', () => {
+    navbarLinks.classList.toggle('active')
+})
